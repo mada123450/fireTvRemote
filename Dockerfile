@@ -1,6 +1,6 @@
 FROM golang:1.8
-RUN ["mkdir", "/icons"]
-COPY icons/ /icons
+RUN ["mkdir", "/material-design-icons"]
+COPY material-design-icons/ /material-design-icons
 
 RUN go get github.com/robbiet480/nfa
 
