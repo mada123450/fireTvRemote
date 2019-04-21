@@ -23,6 +23,3 @@ WORKDIR "/"
 RUN "ls"
 RUN ["cp", "-R", "go", "root"]
 CMD ["/usr/sbin/sshd", "-D"]
-
-
-#CMD ["./bin/nfa", "notify", "-a 192.168.0.108", "-t", "KEKSE", "-m", "HELLO WORLD!"]
