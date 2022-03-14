@@ -10,4 +10,4 @@ else
         sleep 1
         echo reconnected
 fi
-adb shell an start -n $2
+adb shell am start -n $2
